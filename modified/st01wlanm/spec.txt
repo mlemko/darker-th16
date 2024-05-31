@@ -1,0 +1,125 @@
+entry entry0 {
+    version: 8,
+    name: "background/stage01/st01a.png",
+    format: 5,
+    width: 512,
+    height: 512,
+    memoryPriority: 11,
+    lowResScale: 0,
+    hasData: 1,
+    THTXSize: 524288,
+    THTXFormat: 5,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 1024, h: 512 }
+    }
+}
+
+script script0 {
+    ins_302(8);
+    ins_300(sprite0);
+    ins_401(3.1415927f, 0.0f, 0.0f);
+    ins_403(255);
++60: // 60
+    ins_5(7);
+    ins_3();
+}
+
+
+entry entry1 {
+    version: 8,
+    name: "background/stage01/st01b.png",
+    format: 1,
+    width: 1024,
+    height: 512,
+    memoryPriority: 0,
+    lowResScale: 0,
+    hasData: 1,
+    THTXSize: 1712128,
+    THTXFormat: 1,
+    THTXWidth: 1024,
+    THTXHeight: 418,
+    THTXZero: 0,
+    sprites: {
+        sprite1: { x: 0, y: 0, w: 1022, h: 416 },
+        sprite2: { x: 256, y: 0, w: 1022, h: 416 }
+    }
+}
+
+script script1 {
+    ins_304(3);
+    ins_300(sprite1);
+    ins_302(1);
+    ins_401(0.0f, 0.0f, -0.2268928f);
+    ins_421(0, 1);
+    ins_400(-60.0f, -160.0f, 0.0f);
+    ins_425(0.00018f);
+    ins_403(0);
++650: // 650
+    ins_409(50, 0, 255);
++60: // 710
+    ins_5(8);
+    ins_403(255);
+    ins_409(1, 0, 255);
+    ins_3();
+}
+
+script script2 {
+    ins_304(3);
+    ins_300(sprite2);
+    ins_302(1);
+    ins_401(0.0f, 0.0f, -0.2268928f);
+    ins_421(0, 1);
+    ins_400(-60.0f, -160.0f, 0.0f);
+    ins_425(0.00005f);
+    ins_402(0.9f, 0.9f);
+    ins_403(0);
++650: // 650
+    ins_409(50, 0, 64);
++60: // 710
+    ins_5(8);
+    ins_403(64);
+    ins_409(1, 0, 64);
+    ins_3();
+}
+
+
+entry entry2 {
+    version: 8,
+    name: "background/stage01/st01c.png",
+    format: 1,
+    width: 256,
+    height: 512,
+    memoryPriority: 0,
+    lowResScale: 0,
+    hasData: 1,
+    THTXSize: 428032,
+    THTXFormat: 1,
+    THTXWidth: 256,
+    THTXHeight: 418,
+    THTXZero: 0,
+    sprites: {
+        sprite3: { x: 0, y: 0, w: 640, h: 416 }
+    }
+}
+
+script script3 {
+    ins_304(3);
+    ins_300(sprite3);
+    ins_302(1);
+    ins_401(0.0f, 0.0f, -0.2268928f);
+    ins_421(0, 1);
+    ins_400(-60.0f, -160.0f, 0.0f);
+    ins_403(0);
++650: // 650
+    ins_409(50, 0, 255);
++60: // 710
+    ins_5(8);
+    ins_403(255);
+    ins_409(1, 0, 255);
+    ins_3();
+}
+
+
